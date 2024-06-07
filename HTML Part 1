@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Page</title>
+</head>
+<body>
+  <!-- Ctrl + / to comment out in a single Click -->
+  <p>Hello World</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cupiditate harum quae maiores similique magni ad rerum ducimus. Ipsam voluptate porro iste explicabo dolorem unde sequi mollitia odio itaque a.</p>
+  <a href="https://www.youtube.com/"> Click For Youtube </a>
+  <br>
+  <a href="https://www.facebook.com/"> Click For Facebook </a>
+  <br>
+  <img src="https://tiimg.tistatic.com/fp/3/008/030/glossy-cover-rectangular-plain-paper-writing-spiral-binding-notebook-for-office-use-183.jpg" alt="notebook" >
+<img src="Images/image.jpg" alt="notebooks" >
+<br>
+<p>
+  Lorem ipsum dolor sit amet <b>consectetur adipisicing elit.</b> Voluptatum natus, odio dolores mollitia pariatur delectus nesciunt facere soluta earum, est quis, <i>praesentium expedita</i>. Totam aperiam enim ullam, <u>sed quo deserunt dolor!</u> Nobis sequi quo dolore!
+</p>
+<br>
+<big>This is a Text</big>
+<big>This is a Text</big> 
+<hr>
+<small>This Txt is small</small>
+<br>
+<p>H<sub>2</sub>O</p>
+<br>
+<p>3<sup>2</sup> = 9</p> <br>
+<video src="Assests/Fiverr introduction Video.mp4" height="300px" controls autoplay muted loop></video><br>
+<pre>Thank         you
+           Yoi
+                  Helloe
+</pre><br><hr>
+<a href=https://www.google.com target="_blank"><img src="Images/—Pngtree—order now banner for promotion_8954699.png" alt="od=rder now" height="300px"></a><br><hr>
+<header>This is part 4</header>
+<main>
+  <section>
+    <h2>Hobbies</h2>
+    I like to read a tons.
+  </section>
+  <section>
+    <h4>Profession</h4>
+    I wanto be a full-stack web developer
+  </section><br>
+  <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis fuga voluptate saepe ipsum, voluptatem autem asperiores, qui nam ipsam est cupiditate sapiente mollitia culpa, deserunt quidem molestiae fugit! Aliquid, adipisci impedit. Quibusdam dolores minus dolorum nulla, nam earum non odit distinctio. Quae nesciunt eveniet corrupti nostrum, assumenda asperiores velit. Ipsam dolorem error quia velit ad amet minus architecto fuga, officiis exercitationem facilis! Et, voluptatem aliquam. Velit nam nisi autem asperiores accusamus ad tempora commodi tenetur illum, temporibus impedit. Ipsam sequi sunt voluptates odit odio consequuntur possimus, assumenda neque modi sapiente, illo nulla dolorum incidunt dicta placeat deserunt repellat aliquid mollitia, id dolorem illum laboriosam quis corporis ad! Iusto reiciendis quis eaque totam suscipit. Officiis aut accusantium quidem expedita placeat ut alias doloremque.</article><br>
+  <aside>Used for Sidebar (mostly ads)</aside>
+</main><hr>
+
+<footer>
+  link1 <br>
+  link2 <br>
+  link3
+</footer>
+
+</body>
+</html>

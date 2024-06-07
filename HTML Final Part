@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lists</title>
+  </head>
+  <body>
+    <!--Ordered list-->
+    <!--Li is for Lines-->
+    <ol type="A">
+      <li>HTML</li>
+      <!--Cab be nested within other lists-->
+      <ol type="i">
+        <li>Level 0</li>
+        <li>Level 1</li>
+        <li>Level 2</li>
+      </ol>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ol>
+    <ul>
+      <li>Cricket</li>
+      <ul>
+        <li>IPL</li>
+        <li>T20</li>
+      </ul>
+      <li>Basketball</li>
+      <li>Football</li>
+    </ul>
+    <br />
+    <table border="1px">
+      <caption>
+        The First Table
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Hobbies</th>
+      </tr>
+      <tr>
+        <td>Jack</td>
+        <td>Titanic</td>
+        <td>Sink</td>
+      </tr>
+
+      <tr>
+        <td>Rose</td>
+        <td>Titanic</td>
+        <td>Money</td>
+      </tr>
+      <tr>
+        <td colspan="3">This is a table</td>
+      </tr>
+    </table>
+    <br />
+    <form action="/contme.me">
+      <label for="user_name">UserName:</label>
+      <input type="text" id="user_name" required placeholder="John" /><br />
+      <label for="User_Pass">Password:</label>
+      <input type="password" id="User_Pass" /><br />
+      <label for="date_it">Date:</label>
+      <input type="date" id="date_it" /><br />
+      <label for="file_submit">File:</label>
+      <input type="file" id="file_submit" /><br />
+      <label for="color_it">Color:</label>
+      <input type="color" id="color_it" name="color" /><br />
+      <label for="select_range">Range:</label>
+      <input
+        type="range"
+        id="select_range"
+        name="range"
+        min="20"
+        max="250"
+      /><br />
+      <label for="poke_button">Poke Me:</label>
+      <input type="button" value="Button" id="poke_button" /> <br />
+      <label for="submit_it"></label>
+      <input type="submit" id="submit_it" />
+    </form>
+    <br />
+    <label for="Male_radio">Male</label>
+    <input type="radio" id="Male_radio" name="Gender" value="Male" /><br />
+    <label for="Female_radio">Female</label>
+    <input type="radio" id="Female_radio" name="Gender" value="Female" /><br />
+    <label for="Other_radio">Other</label>
+    <input type="radio" id="Other_radio" name="Gender" value="Other" /><br />
+    <br />
+    <label for="html_1">HTML</label>
+    <input type="checkbox" id="html_1" name="language" value="HTML" /><br />
+    <label for="css_1">CSS</label>
+    <input type="checkbox" id="css_1" name="language" value="CSS" /><br />
+    <label for="java_1">JavaScript</label>
+    <input
+      type="checkbox"
+      id="java_1"
+      name="language"
+      value="JavaScript"
+    /><br />
+    <br />
+    <label for="drinks">Chose your favorite Soft Drinks</label>
+    <select name="Drinks" id="drinks">
+      <option value="Mojo">Mojo</option>
+      <option value="Drinko">Drinko</option>
+      <option value="RC">RC</option></select
+    ><br />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ipsum magni
+      sint laboriosam architecto porro fuga excepturi quibusdam itaque
+      similique.
+    </p>
+    <br />
+    <label for="story">Write a story below:</label><br />
+    <textarea name="Story" id="story" rows="4" cols="20">
+      Write here...
+    </textarea
+    ><br />
+    <iframe
+      src="https://en.wikipedia.org/wiki/Peale%27s_Philadelphia_Museum"
+      width="400px"
+      height="200px"
+    ></iframe
+    ><br />
+    <br />
+    <iframe
+      width="300"
+      height="200"
+      src="https://www.youtube.com/embed/rklidcZ-aLU?si=YSMkuGlXsbyBrelV"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
